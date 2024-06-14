@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: url(./assets/images/pawel-czerwinski-3k9PGKWt7ik-unsplash.jpg) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 250px;
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+button{
+    border: none;
+    margin: 0 10px;
+    
+}
+
+button i{
+    font-size: 2rem;
+    color: white;
+    width: 50px;
+}
+
+#play{
+    background-color: red;
+    cursor: pointer;
+}
+#reset{
+ background-color: green;
+ cursor: pointer;
+}
+#pause{
+    background-color: orange;
+    cursor: pointer;
+}
+
