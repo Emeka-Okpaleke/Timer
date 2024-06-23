@@ -3,7 +3,7 @@ const reset = document.querySelector("#resetBtn");
 
 let hours = 0;
 let minutes = 0;
-let seconds = 0
+let seconds = 0;
 
 let leadingSecond = 0;
 let leadingMinutes = 0;
